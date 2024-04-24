@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import "./reset.css";
+@import "./header.css";
+@import "./top.css";
+@import "./check.css";
+@import "./about.css";
+@import "./rooms.css";
+@import "./services.css";
+@import "./info.css";
+@import "./explore.css";
+@import "./footer.css";
+
+:root {
+    --poppinsFamily: "Poppins", sans-serif;
+    --colorWhite: #fff;
+    --primaryColor: #e82574;
+    --primaryColorDark: #bc1c5c;
+    --textDark: #0c0a09;
+    --textLight: #78716c;
+    --fontSize: 16px;
+    --lineHeight: 1.2;
+    --fontWeight: 400;
+}
+
+html.unscroll{
+    overflow: hidden;
+}
+
+body {
+    font-family: var( --poppinsFamily);
+    color: var(--textDark);
+    font-size:var(--fontSize);
+    line-height: var(--lineHeight);
+    font-weight: var(--fontWeight);
+}
+
+.container{
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.button{
+    padding: 8px 20px;
+    color: var(--colorWhite);
+    background-color: var(--primaryColor);
+    border-radius: 5px;
+    transition: background-color .3s ease-in-out;
+}
+.button:hover{
+    background-color: var(--primaryColorDark);
+}
+.title{
+    color: var(--textDark);
+    font-size: 40px;
+    font-weight: 600;
+}
+.subtitle{
+    color: var(--textDark);
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    position: relative;
+}
+.subtitle::after{
+    content: "";
+    position: absolute;
+    top: 7px;
+    right: -17px;
+    width: 60px;
+    height: 2px;
+    background-color: var(--primaryColor);
+}
+
+.text{
+    color: var(--textLight);
+    line-height: 1.4;
+}

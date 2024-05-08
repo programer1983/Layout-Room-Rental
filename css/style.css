@@ -33,6 +33,7 @@ body {
     font-size:var(--fontSize);
     line-height: var(--lineHeight);
     font-weight: var(--fontWeight);
+    overflow-x: hidden;
 }
 
 .container{

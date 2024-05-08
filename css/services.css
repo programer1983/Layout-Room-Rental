@@ -3,6 +3,7 @@
     background-size: cover;
     background-position: center;
     height: 500px;
+    overflow-x: hidden;
 }
 .services__inner {
     display: flex;

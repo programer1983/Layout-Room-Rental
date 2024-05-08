@@ -1,5 +1,6 @@
 .about {
     padding-top: 100px;
+    overflow-x: hidden;
 }
 .about__inner{
     display: flex;

@@ -1,6 +1,7 @@
 .footer {
     background-color: var(--textDark);
     padding: 50px 0 70px;
+    overflow-x: hidden;
 }
 .footer__inner {
     display: flex;
